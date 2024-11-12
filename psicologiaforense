@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicologia Forense</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Ajustes para o menu */
+        #menu {
+            background-color: rgb(124, 11, 11);
+            width: 100%;
+            height: 70px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            padding: 10px 0;
+        }
+        #menu .logo {
+            float: left;
+            margin-left: 50px;
+            display: flex;
+            align-items: center;
+        }
+        #menu .logo h1 {
+            font-family: 'Rock Salt', cursive;
+            color: white;
+            margin: 0;
+            font-size: 30px;
+        }
+        /* Adiciona a imagem da mão vermelha */
+        #menu .logo img {
+            width: 40px;
+            height: 40px;
+            margin-left: 15px;
+        }
+        #menu .links {
+            float: right;
+            margin-right: 50px;
+        }
+        #menu a {
+            text-decoration: none;
+            color: #fff;
+            padding-left: 20px;
+            font-size: 18px;
+            display: inline-block;
+            line-height: 70px;
+        }
+        #menu a:hover {
+            text-decoration: underline;
+        }
+        /* Estilos do conteúdo */
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            font-size: 22px;
+            color: #000000;
+            margin-top: 20px;
+            border-bottom: 2px solid red;
+            padding-bottom: 5px;
+        }
+        .content p {
+            font-size: 16px;
+            color: #000000;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .content ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        .content ul li {
+            font-size: 16px;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+        /* Estilos decorativos (formas e detalhes vermelhos) */
+        h2:before {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            margin-right: 5px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+        h2:after {
+            content: "⚖️";
+            margin-left: 10px;
+            color: red;
+            font-size: 18px;
+        }
+        /* Ajuste para a rolagem suave */
+        html {
+            scroll-padding-top: 80px;
+        }
+        ul li:before {
+            content: "🔍";
+            margin-right: 8px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div class="logo">
+            <h1>Psicologia Forense</h1>
+            <!-- Adiciona uma imagem de uma mão vermelha -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Red_Hand.svg/1024px-Red_Hand.svg.png" alt="Mão Vermelha">
+        </div>
+        <div class="links">
+            <a href="#o-que-e">O que é?</a>
+            <a href="#o-que-faz">O que faz?</a>
+            <a href="#importancia">Importância</a>
+            <a href="#cursos">Cursos</a>
+        </div>
+    </div>
+    <div class="info">
+        <section id="o-que-e" class="content">
+            <h2>O que é psicologia forense?</h2>
+            <p>Psicologia forense é o elo entre psicologia e direito. É a área responsável por estudar o comportamento das pessoas que estão envolvidas dentro de ambientes ou circunstâncias reguladas juridicamente.</p>
+            <p>A área serve para garantir que todos os envolvidos em um julgamento, por exemplo, tenham seus direitos garantidos.</p>
+            <p>Por meio de ciências sistemáticas e um vasto repertório acadêmico catalogado pela profissão, o psicólogo forense atende quaisquer demandas judiciais, sem emitir juízo de valor sobre elas.</p>
+            <p>A atuação na área requer responsabilidade e honestidade, já que esse profissional atua como um agente analítico de processos jurídicos.</p>
+        </section>
+        <section id="o-que-faz" class="content">
+            <h2>O que faz um psicólogo forense?</h2>
+            <p>Dito que o psicólogo forense atua como um agente analítico de processos jurídicos, está em suas atribuições, justamente, analisar a condição psicológica dos envolvidos para a identificação de um possível comportamento suspeito.</p>
+            <p>A psicologia forense responde de forma legal durante toda a condução do processo, em defesa da lei garantida para todos que estiverem presentes em uma sala regulada juridicamente. É quem protege a integridade de qualquer sessão desse cunho. Se é um agente analítico, sua função é analisar. Dentro desse espectro, algumas de suas atribuições são:</p>
+            <ul>
+                <li>Coletar e analisar informações relacionadas a cada pessoa envolvida no processo jurídico;</li>
+                <li>Estudar profundamente análise do comportamento humano;</li>
+                <li>Elaborar inquéritos;</li>
+                <li>Apresentar provas e resultados obtidos através de metodologias científicas.</li>
+            </ul>
+        </section>
+        <section id="importancia" class="content">
+            <h2>Importância</h2>
+            <p>A psicologia forense é crucial para entender o comportamento criminoso e avaliar a saúde mental de indivíduos em processos legais. Ela investiga motivações e transtornos que influenciam ações ilícitas, ajudando a elucidar crimes e orientar o sistema legal. A elaboração de perfis criminais é uma de suas principais contribuições, especialmente em casos violentos.</p>
+            <p>Além disso, a psicologia forense avalia a credibilidade de testemunhos, analisando fatores como memória e emoção, e examina transtornos mentais que afetam a responsabilidade penal. Também atua na reabilitação de infratores, promovendo a reintegração social e reduzindo a reincidência.</p>
+            <p>Em casos de violência, garante a proteção das vítimas e a responsabilização dos agressores. Por fim, fornece dados que informam políticas públicas para a prevenção do crime e a promoção da saúde mental, impactando positivamente o sistema de justiça e a sociedade.</p>
+        </section>
+        <section id="cursos" class="content">
+            <h2>Qual curso fazer para se tornar um psicólogo forense?</h2>
+            <p>Essa é uma especialização para quem é graduado em Psicologia. Dentro da própria graduação, o aluno já tem contato com a Psicologia Jurídica, pois essa é uma das matérias que fazem parte da grade curricular do curso. Confira:</p>
+            <ul>
+                <li><a href="https://www.anhanguera.com" target="_blank">Centro Educacional Anhanguera (ANHANGUERA)</a></li>
+                <li><a href="https://www.cruzeirodosulvirtual.com.br" target="_blank">Cruzeiro do Sul Virtual (a distância)</a></li>
+                <li><a href="https://www.unicid.edu.br" target="_blank">Universidade Cidade de São Paulo (UNICID)</a></li>
+                <li><a href="https://www.unifran.edu.br" target="_blank">Universidade de Franca (UNIFRAN)</a></li>
+                <li><a href="https://www.unopar.com.br" target="_blank">Universidade Norte do Paraná (UNOPAR)</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
